@@ -1,3 +1,0 @@
-Test: does everything work correctly
-Test2: add information
-Test3: changed on github.com
