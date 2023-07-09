@@ -1,4 +1,165 @@
-* {
-background: yellow;    
-font-size: 12px;
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    font-weight: regular;
+    color: #DEC90A;
+    background-color: #69685D;
+}
+
+.flex-container {
+  display: flex;  
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.flex-header {
+    background-color: #3A3937;
+    width: 390px;
+   
+}
+.flex-other {
+    width: 100%;
+}
+
+.main-header {
+    color: #ffffff;
+}
+
+header .portrait {
+    width: 100%;
+}
+
+.name-surname {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.main-contacts {
+    font-size: 32px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.contacts-list {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-inline-start: 0px;
+}
+
+.social-informations {
+    font-size: 22px;
+    line-height: 140%;
+    list-style: none;
+    margin-bottom: 45px;
+}
+
+.social-informations .social {
+    font-size: 26px;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.nav-item {
+    width: 140px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #DEC90A;
+    font-size: 18px;
+    line-height: 200%;
+    font-weight: bold;
+    text-align: center;
+    color: #3A3937;
+    list-style: none;
+}
+.li-link {
+    text-decoration: none;
+    color: #3A3937;
+}
+.li-link:hover {
+    color: #69685D;
+}
+
+.headers-in-main {
+    font-size: 32px;
+    font-weight: bold;
+    color: #DEC90A;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.about-me {
+    line-height: 140%;
+    font-size: 17px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.skills-item {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 150%;
+    margin-left: 100px;
+}
+
+xmp {
+    width: 700px;
+    background-color: #3A3937;
+    margin-left: 100px;
+}
+    
+.experience {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 150%;
+    margin-left: 100px;
+} 
+.education {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 150%;
+    margin-left: 100px;
+}
+
+.lang-item {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 150%;
+    margin-left: 100px;
+}
+
+footer {
+    background-color: #DEC90A;
+    height: 100px;
+}
+
+footer img {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+footer a {
+    margin-left: 100px;
+    text-decoration: none;
+    color: #3A3937;
+    font-size: 16;
+    font-weight: bold;
+}
+
+footer span {
+    color: #3A3937;
+    font-size: 16;
+    font-weight: bold;
+    margin-left: 100px;
 }
