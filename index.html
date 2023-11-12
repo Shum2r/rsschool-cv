@@ -6,97 +6,57 @@
     <title>CV Mary Shul'ga</title>
 </head>
 <body>
-    <section class="flex-container">
-        <section class="flex-header">
-            <header class="main-header">
-                <img class="portrait" src="assets/img/cv-ph2.jpg" alt="Портрет для CV">
-                <h1 class="name-surname">Mary Shul’ga</h1>
-                <h2 class="main-contacts">Contacts:</h2>
-                <ul class="contacts-list">
-                <li class="social-informations">
-                    <span class="social">GitHub:</span><br>
-                    <a class="social-link" href="https://github.com/Shum2r">Shum2r</a>
-                </li>
-                <li class="social-informations">
-                    <span class="social">Telegram:</span><br> 
-                    <a class="social-link" href="https://t.me/GrNet8">@GrNet8</a>
-                </li>
-                <li class="social-informations">
-                    <span class="social">Email:</span><br>
-                    <a class="social-link" href=" mailto:maryshu2020@gmail.com">maryshu2020@gmail.com</a>
-                </li>
-                <li class="social-informations">
-                    <span class="social">Discor:</span><br> 
-                    <a class="social-link" href="https://discordapp.com/users/1070894619396677733/">Gr_Nettle</a>
-                </li>
+<!-- index.html -->
+<section class="flex-other">
+    <section class="flex-other">
+        <main>
+            <nav>
+                <ul class="main-nav">
+                    <li class="nav-item"><a class="li-link" href="#about-me">About Me</a></li>
+                    <li class="nav-item"><a class="li-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="li-link" href="code-example">Code Example</a></li>
+                    <li class="nav-item"><a class="li-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="li-link" href="#education">Education</a></li>
+                </ul>
+            </nav>
+            <h2 class="headers-in-main" id="about-me">About Me</h2>
+            <p class="about-me">I have a liberal arts education. Work experience in the chosen field disappointed me.</p>
+            <p class="about-me">Having no special training, I got a job at a company providing Internet services. Getting acquainted with the technical side of the process, I had a need to change my profession. Also, the experience I gained showed me how to improve my learning ability.</p>
+            <p class="about-me">At the moment I am studying Front-End development and improving my English language skills.</p>
+            <h2 class="headers-in-main" id="skills">Skills:</h2>
+            <ul class="skills">
+                <li class="skills-item">HTML5, CSS3</li>
+                <li class="skills-item">Git, GitHub</li>
+                <li class="skills-item">Code</li>
+                <li class="skills-item">Terminal</li>
+                <li class="skills-item">Figma</li>
             </ul>
-            </header>
-        </section>
-        <section class="flex-other">
-            <main>
-                <nav>
-                    <ul class="main-nav">
-                        <li class="nav-item"><a class="li-link" href="#about-me">About Me</a></li>
-                        <li class="nav-item"><a class="li-link" href="#skills">Skills</a></li>
-                        <li class="nav-item"><a class="li-link" href="code-example">Code Example</a></li>
-                        <li class="nav-item"><a class="li-link" href="#experience">Experience</a></li>
-                        <li class="nav-item"><a class="li-link" href="#education">Education</a></li>
-<li class="nav-item"><a class="li-link" href="#laguages">Laguages</a></li>
-</ul>
-</nav>
-<h2 class="headers-in-main" id="about-me">About Me</h2>
-<p class="about-me">I have a liberal arts education. Work experience in the chosen field disappointed me.</p>
-<p class="about-me">Having no special training, I got a job at a company providing Internet services. Getting acquainted with the technical side of the process, I had a need to change my profession. Also, the experience I gained showed me how to improve my learning ability.</p>
-<p class="about-me">At the moment I am studying Front-End development and improving my English 
-language skills.</p>
-<h2 class="headers-in-main" id="skills">Skills:</h2>
-<ul class="skills">
-<li class="skills-item">HTML5, CSS3</li>
-<li class="skills-item">Git, GitHub</li>
-<li class="skills-item">Code</li>
-<li class="skills-item">Terminal</li>
-<li class="skills-item">Figma</li>
-</ul>
-<h2 class="headers-in-main" id="code-example">Code Example</h2>
-<pre>
+            <h2 class="headers-in-main" id="code-example">Code Example</h2>
+            <pre>
 <code>
 function fakeBin(x){
-  let result = '';
-  for (i = 0; i &lt; x.length; i++) {
-    let letter = x[i];
-    if (+letter < 5) {
-      result +=0 ;
-    } else {
-      result +=1 ;
+    let result = '';
+    for (i = 0; i &lt; x.length; i++) {
+        let letter = x[i];
+        if (+letter &lt; 5) {
+            result +=0 ;
+        } else {
+            result +=1 ;
+        }
     }
+    return result;
   }
-  return result;
 </code>
-</pre>
-                <h2 class="headers-in-main" id="experience">Experience</h2>
-                <p class="experience">
-                Еducational project: <br>
-                https://github.com/Shum2r/zaverstayu.git</p>
-                <h2 class="headers-in-main" id="education">Education</h2>
-                <p class="education">
-                    Odessa State Environmental University <br>
-                    Bachelor, Faculty of Economics
-                </p>
-                <h2 class="headers-in-main" id="laguages">Laguages</h2>
-                <ul class="lanuages">
-                    <li class="lang-item">Russian</li>
-                    <li class="lang-item">Ukrainian</li>
-                    <li class="lang-item">English - A1</li>
-                </ul>
-            </main>
-            <footer>
-                <img src="assets/img/gh-ico.png" alt="">
-                <a class="footer-link" href="https://github.com/Shum2r">https://github.com/Shum2r</a>
-                <img src="assets/img/img1.png" alt="">
-                <a href="https://rs.school/js-stage0/">https://rs.school/js-stage0/</a>
-                <span>2023</span>
-            </footer>
-        </section>
+            </pre>
+        </main>
+        <footer>
+            <img src="assets/img/gh-ico.png" alt="">
+            <a class="footer-link" href="https://github.com/Shum2r">https://github.com/Shum2r</a>
+            <img src="assets/img/img1.png" alt="">
+            <a href="https://rs.school/js-stage0/">https://rs.school/js-stage0/</a>
+            <span>2023</span>
+        </footer>
     </section>
+</section>
 </body>
 </html>
