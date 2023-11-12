@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <link rel="stylesheet" href="style.css">
@@ -6,7 +7,7 @@
     <title>CV Mary Shul'ga</title>
 </head>
 <body>
-    <section class="flex-container"> 
+    <section class="flex-container">
         <section class="flex-header">
             <header class="main-header">
                 <img class="portrait" src="assets/img/cv-ph2.jpg" alt="Портрет для CV">
@@ -55,20 +56,19 @@
                     <li class="skills-item">Figma</li>
                 </ul>
                 <h2 class="headers-in-main" id="code-example">Code Example</h2>
-                <pre>
-                    <code>
-                      function fakeBin(x){
-                        let result = '';
-                        for (i = 0; i &lt; x.length; i++) {
-                          let letter = x[i];
-                          if (+letter &lt; 5) {
-                            result +=0 ;
-                          } else {
-                            result +=1 ;
-                          }
-                        }
-                        return result;
-                        }
+                <pre><code>function fakeBin(x){
+  let result = '';
+  for (i = 0; i < x.length; i++) {
+    let letter = x[i];
+    if (+letter
+    if (+letter < 5) {
+      result += '0';
+    } else {
+      result += '1';
+    }
+  }
+  return result;
+}
                     </code>  
                 </pre>
                 <h2 class="headers-in-main" id="experience">Experience</h2>
@@ -83,8 +83,8 @@
                 </ul>
             </main>
             <footer>
-              <a href="https://github.com/Shum2r" class="footer-link"><img src="assets/img/gh-ico.png" alt="github icon"></a>
-              <a href="https://rs.school/js-stage0/" class="footer-link"><img src="assets/img/img1.png" alt="rss icon"></a>
+              <a href="https://github.com/Shum2r" class="footer-link" title="GitHub"><img src="assets/img/gh-ico.png" alt="github icon"></a>
+              <a href="https://rs.school/js-stage0/" class="footer-link" title="RSSchool"><img src="assets/img/img1.png" alt="rss icon"></a>
               <span>2023</span>
           </footer>
         </section>
