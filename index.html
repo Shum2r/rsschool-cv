@@ -62,25 +62,20 @@ language skills.</p>
                 </ul>
                 <h2 class="headers-in-main" id="code-example">Code Example</h2>
 <pre>
-    <xmp>
-                        
-        <form action="#" method="post"> 
-            <div class="input-text"> 
-                <input type="text" required
-                placeholder="Ваше имя"> 
-            </div> 
-            <div class="input-tel"> 
-                <input type="tel" pattern="\+7\s?[\(]{0,1
-                9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[
-                {0,1}\d{2}" required placeholder="Введите
-                телефон"> 
-            </div> 
-            <button type="submit" class="request-button">
-            Оставить заявку 
-            </button> 
-        </form>
-
-                    </xmp>
+    <code>            
+      function fakeBin(x){
+        let result = '';
+        for (i = 0; i < x.length; i++) {
+          let letter = x[i];
+          if (+letter < 5) {
+            result +=0 ;
+          } else {
+            result +=1 ;
+          }
+        }
+        return result;
+        }
+      </code>
 </pre>
                 <h2 class="headers-in-main" id="experience">Experience</h2>
                 <p class="experience">
